@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Farooq AR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="inner_wrapper">
+            <div class="row">
+                <div class="btn _0"><div class="overlay"></div></div>
+                <div class="btn _1"><div class="overlay"></div></div>
+            </div>
+            <div class="row">
+                <div class="btn _2"><div class="overlay"></div></div>
+                <div class="btn _3"><div class="overlay"></div></div>
+            </div>
+            <div class="controls big">
+                
+                <div class="control strict">Strict</div>
+                <div class="control start">Start</div>
+                <div class="on_off_container">
+                    OFF
+                    <div class="control on_off">
+                        <div class="round_slider"></div>
+                    </div>
+                    ON
+                </div>
+                <h2>Simon&reg;</h2>
+            </div>
+        </div>
+        <div class="controls small">
+                
+                <div class="control strict">Strict</div>
+                <div class="control start">Start</div>
+                <div class="on_off_container">
+                    OFF
+                    <div class="control on_off">
+                        <div class="round_slider"></div>
+                    </div>
+                    ON
+                </div>
+        </div>
+        <div class="result">
+            <div class="wins">Total wins : <span id="wins">0</span></div>
+            <div class="alert_message"><span id="alert_message"></span></div>
+            <div class="loss">Games lost : <span id="loss">0</span></div>
+            <div class="victory">Victories : <span id="victory">0</span></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
